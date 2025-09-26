@@ -1,0 +1,345 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    font-family: cursive;
+    font-weight: 800;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 10px;
+    background-color: #FFF3E0; /* Fondo suave beige */
+    align-items: center;
+}
+
+/* Líneas */
+.linea-negra {
+    border: none;
+    height: 5px;
+    background-color: #1B5E20; /* Verde */
+}
+.linea-roja {
+    border: none;
+    height: 5px;
+    background-color: #C62828; /* Rojo vino */
+}
+
+.titulo1 {
+    color: #C62828; /* Rojo vino */
+}
+
+/* Header y Nav */
+.header-principal {
+    text-align: center;
+}
+.nav-principal {
+    width: 100%;
+    height: 160px;
+    background-color: #FFF3E0; /* Verde intenso */
+}
+.nav-list {
+    padding-top: 45px;
+    float: right;
+}
+.nav-item {
+    list-style-type: none;
+    display: inline-block;
+    font-family: inherit;
+    transition: 0.8s all;
+    padding: 18px 20px;
+    background-color: #C62828; /* Rojo vino */
+    border-radius: 10px;
+}
+.nav-item:hover {
+    background-color: #FFD54F; /* Rojo más claro */
+}
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+}
+a:visited {
+    color: #fff;
+}
+a:active {
+    color: #FFD54F; /* Amarillo suave */
+}
+.img-logo {
+    width: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+/* Eventos */
+.eventos {
+    width: 90%;
+    padding: 2em;
+    vertical-align: top;
+}
+.img-bandera {
+    height: 1px;
+    width: 1px;
+}
+.titulovideo {
+    margin-top: -38px;
+    margin-bottom: 30px;
+    float: inline-start;
+}
+.hrvideo {
+    margin-top: 20px;
+    background-color: #C62828; /* Rojo vino */
+    border: none;
+    height: 5px;
+}
+.video-evento {
+    width: 800px;
+    height: 405px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+    margin-top: -20px;
+}
+.prom {
+    background-color: #e2be8f; /*Color del article */
+    
+}
+.vino {
+    width: 95%;
+    height: 45%;
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+    background-color: #b33939; /* Verde */
+    margin-left: -7px;
+}
+.ftvinos {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.gente {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.musica {
+    position: relative;
+    top: 15px;
+    width: 200px;
+    width: 227px;
+    border-radius: 10px;
+}
+
+/* Artículos */
+article {
+    padding: 40px;
+    background-color: #C62828; /* Rojo vino */
+    border-radius: 20px;
+    margin-left: -40px;
+    max-width: 800px;      /* controla el ancho */
+    color: #fff;
+    align-items: center;
+}
+article h1 {
+    border-bottom: 2px solid thin #000000;
+
+}
+.boton-container {
+    text-align: center;
+    background-color: #FFD54F; /* Amarillo */
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.boton-container a {
+    text-decoration: none;
+    color: #1B5E20; /* Verde texto */
+}
+.boton {
+    padding: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+.boton-container:hover {
+    background-color: #c40101; /* Verde */
+    color: #ffffff;
+    transition: 1s;
+}
+
+.platos-especiales {
+    margin-top: 0px;
+    background-color: #FFF8E1; /* Beige claro */
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.plato-item {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin-left: 0;
+    height: auto;
+    color: #fff;
+    width: 100%;
+}
+
+.pasta {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.plato1, .plato2, .plato3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.contenido-plato {
+    flex: 1;
+    padding-left: 0;
+}
+
+.hplato1, .hplato2, .hplato3 {
+    margin: 0 0 15px 0;
+    text-align: left;
+    color: #1B5E20; /* Verde */
+    font-size: 1.5em;
+    border-bottom: 2px solid #C62828;
+    padding-bottom: 10px;
+}
+
+.pplato1, .pplato2, .pplato3 {
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+h2 {
+    margin: 0;
+    border-bottom: solid thin #C62828; /* Rojo vino */
+    color: #1B5E20; /* Verde */
+}
+
+.tour-visual {
+    padding: 20px 0;
+}
+
+.tour-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #C62828; /* Beige claro */
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px 0;
+    margin-left:30px;
+    text-align: justify;
+}
+
+.art-image {
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.art-rest {
+    flex: 1;
+    height: auto;
+    margin: 0;
+    text-align: justify;
+    color: #ffffff; /* Verde */
+    line-height: 1.6;
+}
+
+.art-rest p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.restaurante {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.footer-principal {
+    background-color: #1B5E20;
+    color: #FFD54F;
+    text-align: center;
+    padding: 25px;
+    float: left;
+    margin-left: -180px;
+    width: 130.5%;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: #ffcc00;
+}
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-section ul li a:hover {
+    color: #ffcc00;
+}
+.footer-copy {
+    margin-bottom: 0 auto;
+}
+.social-links a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.social-links img {
+    width: 20px;
+    height: 20px;
+}
+.footer-copy {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+.boton-container1 {
+    text-align: center;
+    background-color: #FFD54F; /* Amarillo */
+    margin: 0 auto;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.boton-container1 a {
+    text-decoration: none;
+    color: #1B5E20; /* Verde texto */
+}
+.boton {
+    padding: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+.boton-container1:hover {
+    background-color: #c40101; /* Verde */
+    color: #ffffff;
+    transition: 1s;
+}
